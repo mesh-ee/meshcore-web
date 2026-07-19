@@ -9,16 +9,18 @@ body {
     font-size: 18px;
     margin: auto;
     max-width: 650px;
+    padding: 18px;
 }
 
 h1 {
     background-image: url("meshcore.svg");
-    background-position: right;
+    background-position: right top;
     background-repeat: no-repeat;
     background-size: 150px;
     border-bottom: 1px solid #ccc;
-    padding-bottom: 18px;
     font-size: 36px;
+    padding-bottom: 18px;
+    padding-right: 160px;
 }
 
 h2 {
