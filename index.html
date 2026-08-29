@@ -6,30 +6,83 @@
         <meta name="description" content="Eesti MeshCore hajusvõrgu koduleht">
         <meta name="author" content="estmesh.ee">
         <link rel="stylesheet" href="style.css">
-        <title>Eesti MeshCore</title>
+        <title>🇪🇪 MeshCore</title>
     </head>
     <body>
-        <h1>Eesti MeshCore</h1>
-        <p>Internetivaba sõnumiside</p>
+        <h1>🇪🇪 MeshCore</h1>
+        <p>
+            <a href="https://meshcore.io">MeshCore</a> on <a href="https://et.wikipedia.org/wiki/LoRa">LoRa</a> tehnoloogial baseeruv ja 868 MHz vabasagedusel töötav võrk, mis võimaldab interneti- ja mobiililevist sõltumatut sõnumite saatmist.
+            Võrk toetub vabatahtlike paigaldatud autonoomsetele repiiteritele, mis edastavad sõnumeid edasi ja laiendavad leviala.
+            MeshCore kasutamiseks on vajalik <a href="https://meshcore.ninja/devices/?roles=companion&band=868&kind=product&lifecycle=active&has=battery%2Cbluetooth%2Cenclosure&adv=1">raadioseade</a>, mis liidestub nutitelefoniga üle sinihamba.
+        </p>
         <h2>Kasulikud viited</h2>
         <ul>
             <li><a href="https://wiki.estmesh.ee/en/docs/meshcore">EstMesh MeshCore Wiki</a>
-            <li><a href="https://litescope.kvlt.ee">LiteScope Analyzer</a>
-            <li><a href="https://analyzer.letsmesh.net/map?lat=58.57813&long=25.81847&zoom=7">LetsMesh Analyzer Map</a></li>
-            <li><a href="https://tll.meshmapper.net/?lat=58.61173&lon=25.70129&zoom=8.00">MeshMapper Signal Map</a></li>
+            <li><a href="https://litescope.kvlt.ee">LiteScope võrguanalüsaator</a>
+            <li><a href="https://tll.meshmapper.net/?lat=58.61173&lon=25.70129&zoom=8.00">MeshMapper levikaart</a></li>
         </ul>
-        <h2>Kohalikud kanalid</h2>
-        <ul>
-            <li><a href="https://litescope.kvlt.ee/channels/C2">#estonia</a> - Eestist ja eestlastele</li>
-            <li><a href="https://litescope.kvlt.ee/channels/A0">#tallinn</a> - Pealinna rahvas</li>
-            <li><a href="https://litescope.kvlt.ee/channels/4F">#tartu</a> - Head mõtted Emajõe Ateenast</li>
-            <li><a href="https://litescope.kvlt.ee/channels/48">#kriis</a> - Kriisiboti teated</li>
-            <li><a href="https://litescope.kvlt.ee/channels/CA">#bot</a> - Erinevate bottide kräunutamine</li>
-            <li><a href="https://litescope.kvlt.ee/channels/D9">#test</a> - Levitestid jmt</li>
-        </ul>
+        <p>
+            Teiste riikide võrguanalüsaatorid:
+            <a class="flag" href="https://meshlog.anrijs.lv">🇱🇻</a>
+            <a class="flag" href="https://meshcore.atvirastinklas.lt">🇱🇹</a>
+            <a class="flag" href="https://litescope.riko.dev">🇵🇱</a>
+            <a class="flag" href="https://corescope.meshcore.fi">🇫🇮</a>
+            <a class="flag" href="https://meshcore.meshat.se">🇸🇪</a>
+            <a class="flag" href="http://meshview.dk">🇩🇰</a>
+        </p>
+        <h2>Kanalid</h2>
+        <table>
+        <tr>
+            <th>Nimi</th>
+            <th>Regioon</th>
+            <th>Kasutus</th>
+        </td>
+        <tr>
+            <td><a href="https://litescope.kvlt.ee/channels/11">Public</a></td>
+            <td>*</td>
+            <td>Globaalne vaikimisi kanal</td>
+        </tr>
+        <tr>
+            <td><a href="https://litescope.kvlt.ee/channels/C2">#estonia</a></td>
+            <td>ee</td>
+            <td>Eestist ja eestlastele</td>
+        </tr>
+        <tr>
+            <td><a href="https://litescope.kvlt.ee/channels/A0">#tallinn</a></td>
+            <td>tallinn</td>
+            <td>Pealinna rahvas</td>
+        </tr>
+        <tr>
+            <td><a href="https://litescope.kvlt.ee/channels/4F">#tartu</a></td>
+            <td>tartu</td>
+            <td>Head mõtted Emajõe Ateenast</td>
+        </tr>
+        <tr>
+            <td><a href="https://litescope.kvlt.ee/channels/48">#kriis</a></td>
+            <td>ee</td>
+            <td>Kriisiboti teated</td>
+        </tr>
+        <tr>
+            <td><a href="https://litescope.kvlt.ee/channels/CA">#bot</a></td>
+            <td>ee</td>
+            <td>Erinevate bottide kräunutamine</td>
+        </tr>
+        <tr>
+            <td><a href="https://litescope.kvlt.ee/channels/D9">#test</a></td>
+            <td>ee</td>
+            <td>Levitestid jmt</td>
+        </tr>
+        </table>
+        <p>
+            Regiooni kasutamine on tugevalt soovituslik ja tuleb igal seadmel eraldi seadistada.
+            Nõnda ei levi sõnumid kaugemale kui vaja ning säästab naabrite eetrit.
+            Vaikimisi regioon <strong>*</strong> on erijuht mis tähistab regiooni puudumist, <strong>mitte</strong> kõiki regioone.
+            Seda on mõistlik kasutada ainult <strong>Public</strong> kanalis.
+        </p>
         <p>
             <a href="https://github.com/mesh-ee/meshcore-web">Lähtekood</a> |
             <a href="https://discord.gg/GsjuCD45z">Discord</a> |
-            Ilusat päeva :)</p>
+            Ilusat päeva :)
+        </p>
     </body>
 </html>
