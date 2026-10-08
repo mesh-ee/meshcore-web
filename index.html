@@ -15,14 +15,19 @@
             Võrk toetub vabatahtlike paigaldatud autonoomsetele repiiteritele, mis edastavad sõnumeid edasi ja laiendavad leviala.
             MeshCore kasutamiseks on vajalik <a href="https://meshcore.ninja/devices/?roles=companion&band=868&kind=product&lifecycle=active&has=battery%2Cbluetooth%2Cenclosure&adv=1">raadioseade</a>, mis liidestub nutitelefoniga üle sinihamba.
         </p>
+        <p>
+            Võrgu arendust ja haldust koordineerib <a href="https://www.erau.ee/et/raadiosidevorgud">ERAÜ Raadiosidevõrkude toimkond</a>.
+        </p>
         <h2>Kasulikud viited</h2>
         <ul>
-            <li><a href="https://wiki.estmesh.ee/en/docs/meshcore">EstMesh MeshCore Wiki</a>
-            <li><a href="https://litescope.kvlt.ee">LiteScope võrguanalüsaator</a>
+            <li><a href="https://meshlog.kvlt.ee">MeshLog</a></li>
+            <li><a href="https://litescope.kvlt.ee">liteScope</a></li>
+            <li><a href="https://corescope.es5nhc.ee">CoreScope</a></li>
             <li><a href="https://tll.meshmapper.net/?lat=58.61173&lon=25.70129&zoom=8.00">MeshMapper levikaart</a></li>
+            <li><a href="https://wiki.estmesh.ee/en/docs/meshcore">EstMesh MeshCore Wiki</a></li>
         </ul>
         <p>
-            Teiste riikide võrguanalüsaatorid:
+            Teiste riikide vaated:
             <a class="flag" href="https://meshlog.anrijs.lv">🇱🇻</a>
             <a class="flag" href="https://meshcore.atvirastinklas.lt">🇱🇹</a>
             <a class="flag" href="https://litescope.riko.dev">🇵🇱</a>
@@ -30,17 +35,30 @@
             <a class="flag" href="https://meshcore.meshat.se">🇸🇪</a>
             <a class="flag" href="http://meshview.dk">🇩🇰</a>
         </p>
-        <h2>Kanalid</h2>
+        <h2>Skoopidest</h2>
+        <p>
+            Palun seadista vaikimisi skoobiks <strong>ee</strong> (seadetes <em>Default Region Scope</em>).
+            Tee seda ka oma repiiteris.
+            Vaikeskoop lokaliseerib automaatselt kõik, millel pole piiri taha asja - kohalik jutt, adverdid, kontrollisõnumid.
+            Nõnda ei kuluta me naaberriikide eetriaega.
+
+            Vaikeskoop ei blokeeri skoopimata (<strong>*</strong>) sõnumite vastuvõttu, vaid juhib sinu sõnumite edasisaatmist.
+            Iga kanali skoop on eraldi muudetav.
+        </p>
+        <p>
+            Skoop <strong>*</strong> tähistab skoobi puudumist, <strong>mitte</strong> kõige lubamist.
+        </p>
+        </p>
+        <h2>Populaarsemad kanalid</h2>
         <table>
         <tr>
             <th>Nimi</th>
-            <th>Regioon</th>
-            <th>Kasutus</th>
+            <th colspan="2">Soovituslik skoop ja kasutus</th>
         </td>
         <tr>
             <td><a href="https://litescope.kvlt.ee/channels/11">Public</a></td>
             <td>*</td>
-            <td>Globaalne vaikimisi kanal</td>
+            <td>Globaalne kanal, DX ja rahvaste sõprus</td>
         </tr>
         <tr>
             <td><a href="https://litescope.kvlt.ee/channels/C2">#estonia</a></td>
@@ -73,12 +91,6 @@
             <td>Levitestid jmt</td>
         </tr>
         </table>
-        <p>
-            Regiooni kasutamine on tugevalt soovituslik ja tuleb igal seadmel eraldi seadistada.
-            Nõnda ei levi sõnumid kaugemale kui vaja ning säästab naabrite eetrit.
-            Vaikimisi regioon <strong>*</strong> on erijuht mis tähistab regiooni puudumist, <strong>mitte</strong> kõiki regioone.
-            Seda on mõistlik kasutada ainult <strong>Public</strong> kanalis.
-        </p>
         <p>
             <a href="https://github.com/mesh-ee/meshcore-web">Lähtekood</a> |
             <a href="https://discord.gg/GsjuCD45z">Discord</a> |

@@ -56,10 +56,6 @@ table th {
     text-align: left;
 }
 
-table td:nth-child(2) {
-    text-align: center;
-}
-
 body p:last-child {
     border-top: 1px solid #ccc;
     padding-top: 18px;
